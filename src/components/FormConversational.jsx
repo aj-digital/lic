@@ -196,9 +196,6 @@ const FormConversational = ({ formData, onNavigate }) => {
             >
               {currentStepConfig.button}
             </Button>
-            <Typography aria-live="polite" variant="body2" sx={{ color: saveStatus === 'Saving...' ? '#94a3b8' : '#16a34a', fontWeight: 600 }}>
-              {saveStatus}
-            </Typography>
           </Box>
           <Box>
             <Button 
